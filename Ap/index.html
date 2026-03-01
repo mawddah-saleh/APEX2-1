@@ -1,89 +1,280 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
     <meta charset="UTF-8">
-    <title>APEX TECH</title>
-
-    <link rel="stylesheet" href="styles/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APEX TECH | المستقبل يبدأ هنا</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <nav>
-        <ul>
-            <li class="active">
-                <a href="index.html">الرئيسية</a>
-            </li>
-            <li>
-                <a href="about_us.html">من نحن</a>
-            </li>
-            <li>
-                <a href="ambition.html">طموحنا</a>
-            </li>
-            <li>
-                <a href="activities.html">نشاطاتنا</a>
-            </li>
-            <li>
-                <a href="services.html">خدماتنا</a>
-            </li>
-        </ul>
-
-        <button class="signup">Sign Up</button>
+        <div class="nav-container">
+            <div class="logo-text"><a href="#home" style="text-decoration: none; color: inherit;">APEX<span>TECH</span></a></div>
+            <ul class="nav-links">
+                <li class="active"><a href="#home">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#ambition">طموحنا</a></li>
+                <li><a href="#activities">نشاطاتنا</a></li>
+                <li><a href="#services">خدماتنا</a></li>
+            </ul>
+            <button class="signup">Sign Up</button>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
     </nav>
+
     <main>
-        <div class="logo"> <img src="images/logo.png" alt="APEX"></div>
-        <div class="container">
-            <div class="text">
-                <h1>دفعة APEXTECH ... نكتب الكود ونصنع المستقبل</h1>
-                <hr>
-                <p>
-                    لسنا مجرد طلاب، نحن فريق شغوف بالتقنية، نحول الأفكار إلى مشاريع،
-                    والتحديات إلى فرص.<br><br>
+        <section id="home" class="hero-section">>
+    <div class="hero-container">
+        <div class="hero-visual">
+            <div class="ellipse-bg"></div>
+            <div class="logo-wrapper">
+                <img src="images/logo.png" alt="APEX TECH Logo" class="main-logo">
+            </div>
+            <div class="batch-info">
+                <h2>APEX TECH</h2>
+                <p>THE SIXTH BATCH IT</p>
+            </div>
+            <div class="decoration-stars">
+                <span>◆</span><span>◆</span><span>◆</span>
+            </div>
+        </div>
 
-                    هنا تبدأ قصتنا، وهنا نعرض طموحاتنا، إنجازاتنا،
-                    وكل ما نصنعه بأيدينا.<br><br>
+        <div class="hero-text-content">
+            <h1 class="hero-title">دفعة APEXTECH ... نكتب الكود ونصنع المستقبل</h1>
+            <p class="hero-description">
+                لسنا مجرد طلاب، نحن فريق شغوف بالتقنية، نحول الأفكار إلى مشاريع، والتحديات إلى فرص. 
+                <br><br>
+                هنا تبدأ قصتنا، وهنا نعرض طموحاتنا، إنجازاتنا، وكل ما نصنعه بأيدينا. 
+                <br><br>
+                معاً نتعلم، نبتكر، ونترك أثراً.
+            </p>
+        </div>
+    </div>
+</section>
 
-                    <span class="highlight">معًا نتعلم، نبتكر، ونترك أثر.</span>
-                </p>
+        <section id="about" class="about-section reveal">
+    <div class="about-container">
+        <div class="about-text">
+            <p>
+                نحن دفعة <span class="highlight">APEX TECH</span>، تجمعنا روح الفريق، حب التقنية، والطموح العالي. نؤمن بأن الجامعة ليست قاعات فقط، بل مساحة للتجربة، الإبداع، وبناء المستقبل. دفعة تصنع فرصها بنفسها، وتؤمن أن كل طالب فيها هو مشروع مبدع قادم.
+            </p>
+            <div class="decoration-dots">
+                <span>◆</span><span>◆</span><span>◆</span>
+            </div>
+        </div>
+
+        <div class="about-image-wrapper">
+            <div class="image-frame">
+                <img src="images/grop.jpg" alt="APEXTECH Team">
+                <div class="side-border"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section id="ambition" class="ambition-section reveal">
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="images/15.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+            <h2 class="reveal-text">طموحنا أكبر من <span>المناهج</span></h2>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+        <div class="cards-grid">
+            <div class="ambition-card reveal">
+                <div class="card-icon">🚀</div>
+                <h3>نطمح للاحتراف</h3>
+                <p>لا نكتفي بالتعلّم بل نصل إلى مستوى احترافي حقيقي يواكب سوق العمل العالمي.</p>
             </div>
 
-            <div class="logo-area">
-                <div class="cylinder"></div>
-                <div class="orbit"></div>
-                <div class="brand">
-                    <h3>APEX TECH</h3>
-                    <h5>_________________________</h5>
-                    <span>THE SIXTH BATCH IT</span>
+            <div class="ambition-card reveal">
+                <div class="card-icon">💡</div>
+                <h3>خبرات متعددة</h3>
+                <p>نُخرج طلابًا يمتلكون خبرات في مجالات برمجية مختلفة ومتنوعة.</p>
+            </div>
+
+            <div class="ambition-card reveal">
+                <div class="card-icon">⚡</div>
+                <h3>نواكب التقنية</h3>
+                <p>نواكب التطور التقني المتسارع ونسبق بخطوة في عالم الذكاء الاصطناعي.</p>
+            </div>
+
+            <div class="ambition-card reveal">
+                <div class="card-icon">🌍</div>
+                <h3>مشاريع تخدم المجتمع</h3>
+                <p>نبني حلولًا رقمية تساهم في حل مشكلات واقعية تخدم مجتمعنا.</p>
+            </div>
+
+            <div class="ambition-card reveal">
+                <div class="card-icon">💎</div>
+                <h3>هوية تليق بالتخصص</h3>
+                <p>نمثل تخصص تقنية المعلومات بأفضل صورة احترافية ممكنة.</p>
+            </div>
+
+            <div class="ambition-card reveal">
+                <div class="card-icon">🌱</div>
+                <h3>أثر مستمر</h3>
+                <p>أثرنا يبدأ من مقاعد الدراسة ويستمر لترك بصمة واضحة في الوطن.</p>
+            </div>
+        </div>
+        
+        <div class="ambition-footer reveal">
+            <p>نطمح أن يكون اسم دفعتنا مرتبطًا بالإبداع والتميّز دائمًا</p>
+        </div>
+    </div>
+</section>
+
+<section id="activities" class="activities-section reveal">
+    <div class="activities-hero">
+        <div class="activities-image reveal-left">
+            <img src="images/hand.png" alt="AI Hand" class="floating-hand">
+        </div>
+
+        <div class="activities-content reveal-right">
+            <h2 class="section-title">نشاطاتنا<span>.</span></h2>
+            <p class="subtitle">خطواتنا نحو التميز الرقمي</p>
+            <p class="description">
+                من هاكثونات مصغّرة إلى ورش عمل وأنشطة تقنية، نصنع فرصًا للتعلم خارج الإطار التقليدي. 
+                أنشطتنا ليست مجرد فعاليات، بل تجارب تصقل المهارات وتكشف المواهب.
+            </p>
+        </div>
+    </div>
+
+    <div class="slider-wrapper reveal">
+        <button class="slide-btn prev" id="prevBtn">‹</button>
+        
+        <div class="activities-slider" id="mainSlider">
+            <div class="activity-slide">
+                <div class="slide-card">
+                    <span class="tag">Workshops</span>
+                    <h3>ورش عمل تقنية</h3>
+                    <p>ورش تفاعلية لتطوير المهارات البرمجية والتقنية الحديثة.</p>
                 </div>
             </div>
 
+            <div class="activity-slide">
+                <div class="slide-card">
+                    <span class="tag">Hackathon</span>
+                    <h3>هاكثون مصغّر</h3>
+                    <p>تجربة تنافسية مكثفة لتحويل الأفكار المبتكرة إلى حلول حقيقية.</p>
+                </div>
+            </div>
+
+            <div class="activity-slide coming">
+                <div class="slide-card">
+                    <span class="tag">Coming Soon</span>
+                    <h3>قريبًا</h3>
+                    <p>فعاليات جديدة وتجارب تقنية أقوى في الطريق إليكم.</p>
+                </div>
+            </div>
         </div>
 
-        <div class="star one"></div>
-        <div class="star two"></div>
-        <div class="star three"></div>
+        <button class="slide-btn next" id="nextBtn">›</button>
+    </div>
+</section>
+
+<section id="services" class="services-section">
+    <div class="services-container">
+        
+        <div class="services-header reveal">
+            <h1 class="main-title">خدماتنا<span>.</span></h1>
+            <div class="title-line"></div>
+            <p class="description">مهارات طلابنا تتحول إلى حلول رقمية احترافية، جاهزة لتلبية احتياجات سوق العمل بأعلى معايير الجودة.</p>
+        </div>
+
+        <div class="services-grid">
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">🎨</div>
+                        <h3>تصميم UI/UX</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>واجهات مستخدم جذابة وتجارب رقمية مدروسة بعناية لتسهيل رحلة المستخدم.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">📱</div>
+                        <h3>تطبيقات الجوال</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>برمجة تطبيقات ذكية (Android/iOS) تقدم تجربة مستخدم استثنائية وسلسة.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">🌐</div>
+                        <h3>تطوير الويب</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>تصميم وبناء مواقع ويب سريعة، متجاوبة، وبأحدث التقنيات لضمان أفضل أداء.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">⚙️</div>
+                        <h3>حلول برمجية</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>تطوير أنظمة برمجية متكاملة مخصصة لحل مشاكل عملك المعقدة.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">🛡️</div>
+                        <h3>دعم تقني</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>استشارات وحلول برمجية متكاملة لحل المشكلات التقنية المعقدة.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flip-card reveal">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <div class="icon">🚀</div>
+                        <h3>تنفيذ المشاريع</h3>
+                    </div>
+                    <div class="card-back">
+                        <p>تحويل الأفكار من مجرد مخططات إلى واقع رقمي ملموس وناجح.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     </main>
 
     <footer class="footer">
-        <div class="footer-content">
-            <p>© 2026 دفعة تقنية المعلومات – جميع الحقوق محفوظة</p>
-        </div>
+        <p>© 2026 دفعة تقنية المعلومات – جميع الحقوق محفوظة</p>
         <div class="footer-icons">
-            <a href="https://www.instagram.com/apex.tech6?igsh=OGZndmE1eXo3cHd2
-            " target="_blank">
-                <img src="images/insta.png" alt="Instagram">
-            </a>
-
-            <a href="https://github.com" target="_blank">
-                <img src="images/github.png" alt="GitHub">
-            </a>
-
-            <a href="https://LinkedIn.com" target="_blank">
-                <img src="images/link.png" alt="LinkedIn">
-            </a>
+            <a href="#"><img src="images/insta.png" alt="Instagram"></a>
+            <a href="#"><img src="images/github.png" alt="GitHub"></a>
+            <a href="#"><img src="images/link.png" alt="LinkedIn"></a>
         </div>
     </footer>
 
     <script src="index.js"></script>
-    <script src="navigation.js"></script>
 </body>
 </html>
