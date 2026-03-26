@@ -1,3 +1,51 @@
+/* الإعدادات العامة */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ===== 1. تنسيق الهيدر (Navigation) المصلح ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0; /* زيادة بسيطة لإعطاء متنفس */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2000;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+}
+
+.home {
+    background: linear-gradient(to right, #4c376a, #5a4581);
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 1000px; 
+}
+
+
+
 *{
     margin:0;
     padding:0;
@@ -10,7 +58,8 @@
     display:flex;
     justify-content:center;
     align-items:center;
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    background:#1f1731;
+    overflow-x: hidden;
     }
     
 
@@ -31,7 +80,7 @@
     
     .art-container img{
         width:100%;
-        height:210%;
+        height:110%;
         object-fit: cover;
     }
     .container{

@@ -1,10 +1,56 @@
-/* خلفية عامة */
-body {
+/* الإعدادات العامة */
+* {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #1f1c2c, #928dab);
-    color: #fff;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: radial-gradient(circle at bottom left, #4b0b7a, #000 70%);
+    color: #fff;
+    overflow-x: hidden;
+}
+/* ===== 1. تنسيق الهيدر (Navigation) المصلح ===== */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0; /* زيادة بسيطة لإعطاء متنفس */
+    backdrop-filter: blur(10px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2000;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1300px;
+    display: flex;
+    /* التبديل بين اللوجو والروابط ليتناسب مع اتجاه الصفحة RTL */
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.home {
+    background: #d946ef;
+    padding: 10px 25px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-right: 1000px; /* إبعاد الزر قليلاً عن الروابط */
+}
+
 
 /* شريط العنوان */
 header {
@@ -12,9 +58,8 @@ header {
     font-size: 32px;
     font-weight: bold;
     padding: 30px 20px;
-    background: rgba(255,255,255,0.1);
     backdrop-filter: blur(10px);
-    margin: 30px auto;
+    margin: 100px auto;
     max-width: 900px;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.4);

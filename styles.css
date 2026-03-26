@@ -733,7 +733,19 @@ nav {
 .bg-video {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover; /* يضمن ملء المساحة دون تشويه */
+}
+
+.bg-video2 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
     transform: translate(-50%, -50%);
     min-width: 100%; 
     min-height: 100%;
